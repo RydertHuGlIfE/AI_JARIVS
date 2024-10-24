@@ -177,7 +177,7 @@ def on_submit(query=None):
     conversation_history.append(f"User: {query}") 
 
     try:
-        genai.configure(api_key="AIzaSyAmdmSD8cLq7OgUUqvxIk1MwBJDwmUKGsI")
+        genai.configure(api_key="Add your own API Key")
         generation_config = {
             "temperature": 0.7,
             "top_p": 0.9,
